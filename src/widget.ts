@@ -1,8 +1,6 @@
 import { Widget } from '@lumino/widgets';
 import { MainAreaWidget } from '@jupyterlab/apputils';
-import {
-  imageIcon,
-} from '@jupyterlab/ui-components';
+import { imageIcon } from '@jupyterlab/ui-components';
 
 class ImageCaptionWidget extends Widget {
   // Initialization
@@ -12,7 +10,7 @@ class ImageCaptionWidget extends Widget {
     // Create and append an HTML <p> (paragraph) tag to our widget's node in
     // the HTML document
     const hello = document.createElement('p');
-    hello.innerHTML = "Hello, world!";
+    hello.innerHTML = 'Hello, world!';
     this.node.appendChild(hello);
   }
 }

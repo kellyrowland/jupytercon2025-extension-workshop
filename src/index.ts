@@ -15,11 +15,11 @@ const plugin: JupyterFrontEndPlugin<void> = {
   description:
     'A JupyterLab extension that displays a random image and caption.',
   autoStart: true,
-  requires: [ICommandPalette, ILauncher],  // dependencies of our extension
+  requires: [ICommandPalette, ILauncher], // dependencies of our extension
   activate: (
-      app: JupyterFrontEnd,
-      palette: ICommandPalette,
-      launcher: ILauncher
+    app: JupyterFrontEnd,
+    palette: ICommandPalette,
+    launcher: ILauncher
   ) => {
     console.log(
       'JupyterLab extension jupytercon2025-extension-workshop is activated!'
