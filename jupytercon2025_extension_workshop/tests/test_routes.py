@@ -10,7 +10,7 @@ async def test_hello(jp_fetch):
     payload = json.loads(response.body)
     assert payload == {
             "data": (
-                "Hello, world!"
+                "Hello, Jovyan!"
                 " This is the '/jupytercon2025-extension-workshop/hello' endpoint."
                 " Try visiting me in your browser!"
             ),
